@@ -1,0 +1,126 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	overflow: hidden;
+	color: white;
+	background: #2e2e2e;
+}
+
+.ums
+{
+	width: 100%;
+	padding: 1px 10px;
+	outline: none;
+	background: #000046;
+	background: -webkit-linear-gradient(to left, #000046, #1CB5E0);
+	background: linear-gradient(to left, #000046, #1CB5E0); 
+	text-align: center;
+}
+
+div img
+{
+	text-align: center;
+
+}
+.navbar
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.UMS
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.UMS li
+{
+	float: center;
+	margin-top: 20px;
+}
+
+.UMS li a
+{
+	width: 100%;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: left;
+	font-family: sans-serif;
+	margin: -20px 0px ;
+	margin-left: 10px;
+	padding: 3px;
+}
+.UMS a: hover
+{
+	background: white;
+}
+
+.logo
+{
+	text-align: left;
+    width: 12vw;
+    padding-top: 10px;
+    position: absolute;
+    top: 13px;
+    left: 8.7%;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.mainmenu ul li
+{
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 15px;
+	padding: 5px;
+	top: 8px;
+}
+.mainmanu ul li a
+{
+	color: black;
+}
+
+#logout
+{
+	text-align: right;
+	position: absolute;
+	top: 10.5%;
+	right: 9%;
+}
+
+#logout li a
+{
+	width: 100%;
+	color: #ff3300;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-right: -20px; 
+	margin-left: -5px;
+	padding: 5px;
+}
+
+#logout li a:hover
+{
+	text-decoration: underline;
+	color: #ff3300;
+	background: white;
+}
+		
